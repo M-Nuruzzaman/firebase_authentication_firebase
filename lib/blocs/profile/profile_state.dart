@@ -1,5 +1,3 @@
-import 'package:firebase_authentication/models/user_model.dart';
-
 part of 'profile_cubit.dart';
 
 enum ProfileStatus { initial, loading, loaded, error }

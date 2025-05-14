@@ -15,13 +15,16 @@ class Loader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: backgroundColor,
-      alignment: Alignment.center,
-      child: Image.asset(
-        'assets/images/loading.gif',
-        width: width,
-        height: height,
-        fit: BoxFit.contain,
+      color: Colors.black.withOpacity(0.3),
+      child: Container(
+        color: backgroundColor,
+        alignment: Alignment.center,
+        child: Image.asset(
+          'assets/images/loading.gif',
+          width: width,
+          height: height,
+          fit: BoxFit.contain,
+        ),
       ),
     );
   }

@@ -1,5 +1,3 @@
-import 'package:firebase_authentication/models/custom_error.dart';
-
 part of 'signup_cubit.dart';
 
 enum SignupStatus { initial, submitting, success, error }
